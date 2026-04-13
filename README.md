@@ -43,3 +43,24 @@ identify ~374 at-risk customers per month before they leave.
 pip install pandas matplotlib scikit-learn
 jupyter notebook analysis.ipynb
 ```
+# 🔮 Customer Churn Predictor
+
+A machine learning web app that predicts telecom customer churn probability in real time.
+
+## 🚀 Live Demo
+👉 [https://qianqian-churn-predictor.streamlit.app/](https://qianqian-churn-predictor.streamlit.app/)
+
+## 📌 Project Overview
+Built an end-to-end churn prediction tool using the IBM Telco Customer Churn dataset. 
+The app allows users to input customer attributes and instantly receive a churn risk score with actionable recommendations.
+
+## 🛠️ Tech Stack
+- Python, pandas, scikit-learn (Logistic Regression, AUC: 0.832)
+- Streamlit (web app framework)
+- Deployed on Streamlit Cloud
+
+## 📊 Features
+- Input 19 customer attributes
+- Real-time churn probability prediction
+- Risk level classification (High / Medium / Low)
+- Business-oriented recommendations
